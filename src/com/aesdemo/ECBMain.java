@@ -65,7 +65,7 @@ public class ECBMain {
             }
         }
         //得到D=l后爆破第5位
-        String str5 = "aaaaaaaaaaaa";
+        String str5 = "aaaaaaaaaaa";
         byte[] byte5 = AesEcbUtils.encrypt(str5);
         for (int i = 0; i <= 128; ++i) {
             char c = (char) ('\0' + i);
