@@ -21,7 +21,7 @@ public class AesEcbUtils {
     }
 
     public static byte[] encrypt(String paraString) {
-        String src = paraString + "hello";
+        String src = paraString + "crypto-md5";
         try {
             return encrypt(src.getBytes("utf-8"));
         } catch (Exception ex) {
